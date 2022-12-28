@@ -132,7 +132,15 @@ namespace BinarySearchTree
                 Console.WriteLine("\nEnter your choice (1-5) : ");
                 char ch = Convert.ToChar(Console.ReadLine());
                 Console.WriteLine();
-                
+                switch (ch)
+                {
+                    case '1':
+                        {
+                            Console.WriteLine("Enter a word: ");
+                        }
+                        break;
+                    
+                }
             }
         }
     }
