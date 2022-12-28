@@ -137,9 +137,17 @@ namespace BinarySearchTree
                     case '1':
                         {
                             Console.WriteLine("Enter a word: ");
+                            string word = Console.ReadLine();
+                            x.insert(word);
+                        }
+                        break;
+                    case '2':
+                        {
+                            x.inorder(x.ROOT);
                         }
                         break;
                     
+
                 }
             }
         }
